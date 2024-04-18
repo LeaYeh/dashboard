@@ -1,0 +1,25 @@
+FROM python:3.10-slim-buster AS builder
+
+ENV PATH=/root/.local:/root/.local/bin:/install:$PATH
+
+WORKDIR /app
+
+RUN pip install --upgrade pip
+RUN pip install --user --upgrade  streamlit matplotlib plotly seaborn \
+    streamlit-embedcode streamlit-bokeh-events st-annotated-text  \
+    plotnine smart-open convertdate streamlit-vega-lite pydeck
+
+COPY src /app
+
+FROM python:3.10-slim-buster AS development
+COPY --from=builder /root/.local /root/.local
+COPY --from=builder /app/main.py /app/main.py
+ENV PATH=/root/.local:/root/.local/bin:$PATH
+
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+
+EXPOSE 8080
+WORKDIR /app
+
+CMD streamlit run main.py
