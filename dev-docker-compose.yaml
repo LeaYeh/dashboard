@@ -4,6 +4,8 @@ services:
     container_name: streamlit-dev
     image: dashboard/streamlit-dev:latest
     restart: unless-stopped
+    volumes:
+      - ./src:/app
 # Mount your own Streamlit project if you'd like to /app if you'd like. main.py will run automatically
 #    volumes:
 #      - /home/user/src:/app
