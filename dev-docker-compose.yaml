@@ -1,6 +1,5 @@
-version: "3.7"
 services:
-  streamlit-plus:
+  streamlit-dev:
     container_name: streamlit-dev
     image: dashboard/streamlit-dev:latest
     restart: unless-stopped

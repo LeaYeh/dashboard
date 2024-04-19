@@ -15,7 +15,9 @@ COPY src /app
 FROM python:3.10-slim-buster AS development
 COPY --from=builder /root/.local /root/.local
 COPY --from=builder /app/main.py /app/main.py
+COPY --from=builder . .
 ENV PATH=/root/.local:/root/.local/bin:$PATH
+ENV PATH=/root/.local/bin:${PATH}
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
