@@ -1,0 +1,27 @@
+[global]
+# Change this to false to turn off debug mode. Debug mode shows you a more verbose error message when your app crashes.
+# It also shows the app version and some other info in the top-right corner.
+developmentMode = true
+
+[server]
+# Set the address where the server should start. Defaults to '0.0.0.0' which means it will listen to all network interfaces.
+# Change this if you want Streamlit to be reachable from a specific network only, or if you need to bind to a specific IP because
+# you're inside a network that requires it.
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 8080
+
+[browser]
+# Change this to modify the server's advertised URL. This is the URL that is shown to the user in the "Run on" dropdown in the Streamlit
+# frontend. It is also used when sharing the app. If blank, the server's URL is determined based on the browser's URL.
+serverAddress = "localhost"
+
+[theme]
+# Change this to set your preferred theme. If you set an option to None, it will default to the value in the current Streamlit version.
+# If base="dark", primaryColor and backgroundColor should be dark colors, and secondaryBackgroundColor should be a light color.
+# If base="light", primaryColor and backgroundColor should be light colors, and secondaryBackgroundColor should be a dark color.
+base = "light"
+primaryColor = "#F63366"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
