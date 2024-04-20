@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./src:/app
+      - ./data:/app/data
 # Mount your own Streamlit project if you'd like to /app if you'd like. main.py will run automatically
 #    volumes:
 #      - /home/user/src:/app
