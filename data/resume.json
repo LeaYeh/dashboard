@@ -1,0 +1,220 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Lea Yeh",
+        "label": "Data Engineer & Scientist",
+        "image": "https://gravatar.com/avatar/4b1c334c82a3cc63710620b6daa88880?size=256&cache=1713618229156",
+        "email": "lea.yeh.ml@gmail.com",
+        "phone": "+4367761670726",
+        "summary": "Mastering the full data spectrum at MediaTek, a leader in IC design, with a focus on Data Engineering and Data Science. Currently enhancing data engineering expertise and expanding architectural and DevOps skills through a project-based program at 42Vienna. This strategic development underscores my commitment to leveraging cutting-edge innovations for sustained professional growth. Seeking opportunities that allow me to utilize my skills in Austria. \n\nAustria: Working Holiday Visa. Blue card/RWR Card required.",
+        "location": {
+            "countryCode": "AT",
+            "address": "Austria, Vienna"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Lea Yeh",
+                "url": "https://www.linkedin.com/in/lea-yeh-60296b74/"
+            },
+            {
+                "network": "GitHub",
+                "username": "Lea Yeh (yehhya)",
+                "url": "https://github.com/LeaYeh"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "MediaTek",
+            "position": "Data Scientist",
+            "startDate": "2022-09-30",
+            "endDate": "2023-09-30",
+            "highlights": [],
+            "summary": "- Devoted data-related initiatives spanning cost control and chip development in the AI & Big Data department of a semiconductor advanced process company.\n- Implemented machine learning models to enhance mobile temperature control mechanisms, achieving temperature errors below 1°C.\n- Collaborated with chip developers to reduce power consumption by 20%, resulting in a 14K Antutu score improvement in mobile performance.",
+            "url": "https://www.linkedin.com/company/17763",
+            "location": "Taipei, Taipei City, Taiwan"
+        },
+        {
+            "name": "MediaTek",
+            "position": "Data Engineer",
+            "startDate": "2019-07-31",
+            "endDate": "2022-09-30",
+            "highlights": [],
+            "summary": "[Data Pipeline]\n- Established automated data pipelines for structured and unstructured data, and designed PB-level data ETL processes.\n- Introduced Alibaba's Data Middle Platform theory, enhancing data table reuse rates during the company's early digital transformation.\n- Implemented real-time data quality monitoring, reducing data missing rates from 50% to <1% and lowering monthly labor costs by 7.5 man-days.\n- Coordinated cloud analytics pipelines using NiFi, Airflow, Dataflow, and BigQuery.\n\n[Data Analysis]\n- Managed EDA License and Computing Farm costs, leading to an interactive BI Dashboard using Splunk, aiding EO procurement decisions and reducing costs by 25%.",
+            "url": "https://www.linkedin.com/company/17763",
+            "location": "Taipei City, Taiwan"
+        },
+        {
+            "name": "MediaTek",
+            "position": "Software Engineer",
+            "startDate": "2016-09-30",
+            "endDate": "2019-06-30",
+            "highlights": [],
+            "summary": "- Developed debugging and analysis tools for Modem Logs.\n- Created a World Wide Field Trial Upload Tool using Vue.js with Electron.\n- Developed an automated ICD DMS using Python and Jenkins to adhere to documentation standards.\n- Developed a StackOverflow-like QA platform using AngularJS.",
+            "url": "https://www.linkedin.com/company/17763",
+            "location": "Taipei City, Taiwan"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Taiwan in Data Science (TWiDS)",
+            "position": "Volunteer Organizer",
+            "startDate": "2023-10-01",
+            "endDate": "2024-06-01",
+            "summary": "Serving as one of the organizers at Taiwan in Data Science (TWiDS), a volunteer organization dedicated to promoting data-related fields in Taiwan. Taking an active role in promoting awareness and cultivating a deeper understanding of data science across Taiwan. Spearheading the organization's preparations for workshops, podcasts, and conferences in 2024.",
+            "url": "https://www.facebook.com/TWiDataScience/",
+            "highlights": [
+                "Promoting awareness and understanding of data science across Taiwan.",
+                "Leading preparations for significant events including workshops, podcasts, and conferences planned for 2024."
+            ],
+            "additionalUrls": {
+                "Podcast": "https://open.spotify.com/show/5FpnLJd5cf9QTx0RmWmqrR",
+                "Facebook": "https://www.facebook.com/TWiDataScience/"
+            }
+        }
+    ],
+    "education": [
+        {
+            "institution": "42 Vienna",
+            "area": "Computer Science",
+            "studyType": "Professional development",
+            "startDate": "2023-09-30",
+            "endDate": "2024-09-30",
+            "url": "https://www.42vienna.com/about/",
+            "score": "",
+            "courses": ["System Programming", "C/C++", "DevOPS"]
+        },
+        {
+            "institution": "National Chiao Tung University",
+            "area": "Computer Science",
+            "studyType": "Master of Data Mining",
+            "url": "https://www.nycu.edu.tw/nycu/en/",
+            "startDate": "2014-12-31",
+            "endDate": "2016-12-31",
+            "score": "",
+            "courses": []
+        },
+        {
+            "institution": "Tatung University",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "url": "https://ao.ttu.edu.tw/",
+            "startDate": "2010-12-31",
+            "endDate": "2014-12-31",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "IT annual award",
+            "date": "2020-12-01",
+            "awarder": "Mediatek",
+            "summary": "Recognized with the IT Annual Award at MediaTek."
+        }
+    ],
+    "certificates": [],
+    "publications": [
+        {
+            "name": "Clustering using Radius-Weighted Means and Analytical Radius-Preserved Formula",
+            "publisher": "NCTU",
+            "releaseDate": "2016-06-01"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Data Engineering",
+            "level": "Master",
+            "keywords": ["Big data pipeline", "Data Warehouse", "Data Architectural", "ETL", "Data Quality Monitoring", "Google Cloud Platform (GCP)"]
+        },
+        {
+            "name": "Data Science",
+            "level": "Advanced",
+            "keywords": ["Machine Learning", "Deep Learning", "High-dimensional Clustering", "Explainable AI", "Model Evaluation", "Model Deployment"]
+        },
+        {
+            "name": "Data Analysis",
+            "level": "Advanced",
+            "keywords": ["BI Dashboard", "Plotly", "Splunk", "Data Visualization"]
+        },
+        {
+            "name": "Software Development",
+            "level": "Master",
+            "keywords": ["Syetsm Design", "Design Patterns", "System Architectural", "Agile"]
+        },
+        {
+            "name": "Python",
+            "level": "Master",
+            "keywords": ["OOP", "Pytorch", "Streamlit", "Pandas", "Pythonic"]
+        },
+        {
+            "name": "SQL",
+            "level": "Advanced",
+            "keywords": ["MySQL", "BigQuery"]
+        },
+        {
+            "name": "DevOPS",
+            "level": "advanced",
+            "keywords": ["Git", "Docker", "CI/CD", "GitHub Actions", "Git Flow"]
+        },
+        {
+            "name": "C/C++",
+            "level": "advanced",
+            "keywords": ["Performance Optimization", "Multiprocessing", "Parallel Computing"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Chinese",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "Taiwanese",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional Working Proficiency"
+        },
+        {
+            "language": "German",
+            "fluency": "Beginner"
+        }
+    ],
+    "interests": [
+    ],
+    "references": [
+    ],
+    "projects": [
+        {
+            "name": "CDNJS (Content Delivery Network for JavaScript)",
+            "description": "CDNJS is a free and open-source content delivery network for JavaScript libraries. It is used by over 3.5 million websites, serving over 30 billion requests per month.",
+            "startDate": "2015-09-01",
+            "endDate": "2016-09-01",
+            "highlights": [
+                "Served over 30 billion requests per month.",
+                "Used by over 3.5 million websites."
+            ],
+            "url": "https://cdnjs.com/",
+            "roles": ["Contributor"]
+        },
+        {
+            "name": "minishell (Implemented a simple shell)",
+            "description": "minishell reimagines traditional shell functionalities by emulating sophisticated features of GNU Bash. This project delves into system programming and software architecture to provide a robust interpreter modeled on Bash standards.",
+            "startDate": "2023-12-01",
+            "endDate": "2024-03-15",
+            "highlights": [
+                "Developed a syntax analizer with the shift-reduce algorithm for interpreting commands using Bash-like grammar.",
+                "Employed Docker to ensure consistent development environments across the team, reducing setup inconsistencies.",
+                "Contributed to all phases of the software development lifecycle, optimizing subprocess management for enhanced command execution."
+            ],
+            "url": "https://github.com/LeaYeh/minishell",
+            "roles": ["Developer"]
+        }
+    ],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+}
