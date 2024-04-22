@@ -1,0 +1,9 @@
+[[pages]]
+path = "./elements/resume.py"
+name = "Home"
+icon = ":house:"
+
+[[pages]]
+path = "./elements/resume.py"
+name = "Home2"
+icon = ":house:"

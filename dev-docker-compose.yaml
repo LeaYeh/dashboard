@@ -5,12 +5,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./src:/app
+      - ./.streamlit:/app/.streamlit
       - ./data:/app/data
-# Mount your own Streamlit project if you'd like to /app if you'd like. main.py will run automatically
-#    volumes:
-#      - /home/user/src:/app
-# Uncomment this line and add your own custom index as needed (e.g., for injecting Google Analytics or other tracking)
-#      - /home/user/custom/index.html:/root/.local/lib/python3.8/site-packages/streamlit/static/index.html
     ports:
       - 8080:8080
     networks:

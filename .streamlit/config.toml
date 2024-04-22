@@ -1,7 +1,7 @@
 [global]
 # Change this to false to turn off debug mode. Debug mode shows you a more verbose error message when your app crashes.
 # It also shows the app version and some other info in the top-right corner.
-developmentMode = true
+developmentMode = false
 
 [server]
 # Set the address where the server should start. Defaults to '0.0.0.0' which means it will listen to all network interfaces.
